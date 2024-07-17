@@ -1,0 +1,26 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar-container { 
+  border-bottom: 2px solid red;
+}
+.navbar-outer { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-right-inner { 
+  display: flex;
+}
+
+.nav-item { 
+  padding: 15px;
+}
